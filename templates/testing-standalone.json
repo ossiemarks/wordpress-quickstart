@@ -21,7 +21,7 @@
         {
             "name": "QUICKSTART_REPOSITORY_URL",
             "description": "The URL of the quickstart Git repository.",
-            "value": "https://github.com/openshift-evangelists/wordpress-quickstart",
+            "value": "https://github.com/ossiemarks/wordpress-quickstart",
             "required": true
         },
         {
@@ -33,13 +33,13 @@
         {
             "name": "WORDPRESS_MEMORY_LIMIT",
             "description": "Amount of memory available to WordPress.",
-            "value": "512Mi",
+            "value": "1024Mi",
             "required": true
         },
         {
             "name": "DATABASE_MEMORY_LIMIT",
             "description": "Amount of memory available to the database.",
-            "value": "512Mi",
+            "value": "1024Mi",
             "required": true
         },
 	{
