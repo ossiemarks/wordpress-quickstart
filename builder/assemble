@@ -19,7 +19,7 @@ mkdir -p /tmp/src/configs
 
 cp Divi.zip /tmp/src/themes/
 cd /tmp/src/themes/ 
-unzip divi.zip 
+unzip Divi.zip 
 
 mv /tmp/src/plugins /opt/app-root/downloads/plugins
 mv /tmp/src/themes /opt/app-root/downloads/themes
