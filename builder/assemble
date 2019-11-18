@@ -17,7 +17,7 @@ mkdir -p /tmp/src/themes
 mkdir -p /tmp/src/languages
 mkdir -p /tmp/src/configs
 
-cp divi.zip /tmp/src/themes/
+cp Divi.zip /tmp/src/themes/
 cd /tmp/src/themes/ 
 unzip divi.zip 
 
