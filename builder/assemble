@@ -17,9 +17,6 @@ mkdir -p /tmp/src/themes
 mkdir -p /tmp/src/languages
 mkdir -p /tmp/src/configs
 
-cp divi.zip /tmp/src/themes/
-cd /tmp/src/themes/ 
-unzip divi.zip 
 
 mv /tmp/src/plugins /opt/app-root/downloads/plugins
 mv /tmp/src/themes /opt/app-root/downloads/themes
