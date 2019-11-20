@@ -166,7 +166,7 @@
                         },
                         {
                             "name": "io.openshift.tags",
-                            "value": "builder,php,wordpress"
+                            "value": "builder,php,wordpress-divi"
                         }
                     ]
                 }
