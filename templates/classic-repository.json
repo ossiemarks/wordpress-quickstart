@@ -150,7 +150,7 @@
                     "imageLabels": [
                         {
                             "name": "io.k8s.display-name",
-                            "value": "WordPress"
+                            "value": "WordPress-divi"
                         },
                         {
                             "name": "io.k8s.description",
