@@ -14,7 +14,7 @@
         {
             "name": "APPLICATION_NAME",
             "description": "The name of the WordPress instance.",
-            "value": "my-wordpress-site",
+            "value": "wordpress-divi-site",
             "from": "[a-zA-Z0-9]",
             "required": true
         },
@@ -246,7 +246,7 @@
                         "imageChangeParams": {
                             "automatic": true,
                             "containerNames": [
-                                "wordpress"
+                                "wordpress-divi"
                             ],
                             "from": {
                                 "kind": "ImageStreamTag",
@@ -278,7 +278,7 @@
                         ],
                         "containers": [
                             {
-                                "name": "wordpress",
+                                "name": "wordpress-divi",
                                 "image": "${APPLICATION_NAME}-img",
                                 "ports": [
                                     {
@@ -328,7 +328,7 @@
                                 "env": [
                                     {
                                         "name": "MYSQL_DATABASE",
-                                        "value": "wordpress"
+                                        "value": "wordpress-divi"
                                     },
                                     {
                                         "name": "MYSQL_USER",
